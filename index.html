@@ -320,18 +320,20 @@
           <h3 class="text-xl font-black uppercase text-gray-900 mb-2">Send us a message</h3>
           <p class="text-gray-500 text-sm mb-8">Fill out the form below and our engineering team will respond to your inquiry within 24 hours.</p>
           
-          <form action="mailto:engineeringhomex@gmail.com" method="POST" enctype="text/plain" class="space-y-6">
+          <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+            <input type="hidden" name="access_key" value="9325be91-01a4-4a76-98da-b6ec1a0b81f8">
+            
             <div>
               <label class="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Your Name</label>
-              <input type="text" name="Name" placeholder="e.g. John Smith" class="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-brand-red focus:bg-white transition text-sm" required>
+              <input type="text" name="name" placeholder="e.g. John Smith" class="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-brand-red focus:bg-white transition text-sm" required>
             </div>
             <div>
               <label class="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Email Address</label>
-              <input type="email" name="Email" placeholder="e.g. john@example.com" class="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-brand-red focus:bg-white transition text-sm" required>
+              <input type="email" name="email" placeholder="e.g. john@example.com" class="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-brand-red focus:bg-white transition text-sm" required>
             </div>
             <div>
               <label class="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Subject of Enquiry</label>
-              <select name="Subject" class="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-brand-red focus:bg-white transition text-sm text-gray-700 appearance-none">
+              <select name="subject" class="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-brand-red focus:bg-white transition text-sm text-gray-700 appearance-none">
                 <option>Residential Project</option>
                 <option>Commercial Construction</option>
                 <option>Engineering Consultation</option>
@@ -340,7 +342,7 @@
             </div>
             <div>
               <label class="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Project Brief / Message</label>
-              <textarea name="Message" placeholder="Tell us about your project requirements..." rows="4" class="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-brand-red focus:bg-white transition text-sm resize-none" required></textarea>
+              <textarea name="message" placeholder="Tell us about your project requirements..." rows="4" class="w-full bg-gray-50 border border-gray-200 px-4 py-3 focus:outline-none focus:border-brand-red focus:bg-white transition text-sm resize-none" required></textarea>
             </div>
             <button type="submit" class="w-full bg-brand-red hover:bg-red-800 text-white font-bold py-4 transition-all uppercase tracking-wider text-sm shadow-lg">
               Submit Inquiry &raquo;
