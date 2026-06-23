@@ -121,7 +121,7 @@
 
   <!-- Service Cards -->
   <section class="w-full">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 auto-rows-[320px] md:auto-rows-[400px]">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 auto-rows-[320px] md:auto-rows-[400px]">
 
       <!-- Card 1 (Image) -->
       <div class="relative h-full group overflow-hidden reveal">
@@ -189,7 +189,7 @@
       </div>
       <!-- Card 5 (Dark) -->
       <div class="relative h-full group overflow-hidden reveal">
-        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1000&auto=format&fit=crop"
+        <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=1000&auto=format&fit=crop"
           class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
           alt="Engineering Services">
         <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
@@ -207,7 +207,7 @@
 
     </div>
   </section>
-  
+
   <!-- Why Choose Us -->
   <section class="py-24 md:py-32 bg-brand-dark reveal">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
@@ -409,7 +409,8 @@
         </div>
 
         <!-- Form -->
-        <div class="bg-brand-light rounded-3xl shadow-premium p-8 md:p-10 relative overflow-hidden flex flex-col justify-center h-full">
+        <div
+          class="bg-brand-light rounded-3xl shadow-premium p-8 md:p-10 relative overflow-hidden flex flex-col justify-center h-full">
           <div class="absolute top-0 left-0 w-full h-2 bg-brand-red"></div>
           <h3 class="font-display text-2xl font-black uppercase text-brand-dark mb-2">Send us a message</h3>
           <p class="text-brand-muted text-sm mb-6">Fill out the form below and our engineering team will respond to
@@ -420,13 +421,15 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <label class="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-1.5">Your Name</label>
+                <label class="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-1.5">Your
+                  Name</label>
                 <input type="text" name="name" placeholder="e.g. John Smith"
                   class="w-full bg-brand-gray border border-transparent rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-red/30 focus:border-brand-red focus:bg-brand-light transition text-sm"
                   required>
               </div>
               <div>
-                <label class="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-1.5">Phone Number</label>
+                <label class="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-1.5">Phone
+                  Number</label>
                 <input type="tel" name="phone" placeholder="e.g. +94 77 123 4567"
                   class="w-full bg-brand-gray border border-transparent rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-red/30 focus:border-brand-red focus:bg-brand-light transition text-sm"
                   required>
@@ -461,7 +464,7 @@
                 class="w-full bg-brand-gray border border-transparent rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-red/30 focus:border-brand-red focus:bg-brand-light transition text-sm resize-none"
                 required></textarea>
             </div>
-            
+
             <button type="submit"
               class="w-full rounded-xl bg-brand-red hover:bg-[#991B1B] hover:-translate-y-1 text-white font-bold py-3.5 transition-all duration-300 uppercase tracking-wider text-sm shadow-glow mt-2">
               Submit Inquiry &raquo;
