@@ -98,21 +98,23 @@
 
   <!-- Service Cards -->
   <section class="w-full">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 h-auto md:h-[400px]">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 auto-rows-[320px] md:auto-rows-[400px]">
       
       <!-- Card 1 (Image) -->
-      <div class="relative h-80 md:h-full group overflow-hidden reveal">
-        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Design & Build">
-        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
-        <div class="absolute bottom-8 left-8 right-8">
-          <div class="w-10 h-10 bg-brand-red flex items-center justify-center mb-4 text-white">
-             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
-          </div>
-          <h3 class="text-white text-xl font-bold uppercase tracking-wide">Design & Build<br>Construction</h3>
-        </div>
-      </div>
+      <div class="relative h-full group overflow-hidden reveal">
+  <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Design & Build Construction">
+  <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+  <div class="absolute bottom-8 left-8 right-8">
+    <h3 class="font-display text-white text-2xl font-bold mb-2 uppercase tracking-tight">
+      Design & Build<br>Construction
+    </h3>
+    <p class="text-brand-gray text-sm leading-relaxed">
+      End-to-end construction solutions combining innovative design, quality materials, and efficient project execution.
+    </p>
+  </div>
+</div>
 
-      <div class="relative h-80 md:h-full group overflow-hidden reveal">
+      <div class="relative h-full group overflow-hidden reveal">
         <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1000&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Residential & Commercial">
         <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
         <div class="absolute bottom-8 left-8 right-8">
@@ -123,62 +125,53 @@
         </div>
       </div>
 
-      <div class="relative h-80 md:h-full group overflow-hidden reveal">
-  <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1000&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Building Renovations">
-  <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
-  <div class="absolute bottom-8 left-8 right-8">
-    <h3 class="font-display text-white text-2xl font-bold mb-2 uppercase tracking-tight">
-      Building<br>Renovations
-    </h3>
-    <p class="text-brand-gray text-sm leading-relaxed">
-      Transforming existing spaces with modern designs, improved functionality, and high-quality finishes tailored to your needs.
-    </p>
-  </div>
-</div>
-
-<div class="relative h-80 md:h-full group overflow-hidden reveal">
-  <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1000&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Cost Evaluation & Estimation">
-  <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
-  <div class="absolute bottom-8 left-8 right-8">
-    <h3 class="font-display text-white text-2xl font-bold mb-2 uppercase tracking-tight">
-      Cost Evaluation &<br>Estimation
-    </h3>
-    <p class="text-brand-gray text-sm leading-relaxed">
-      Accurate project cost analysis and detailed estimates to help you plan your construction with transparency and confidence.
-    </p>
-  </div>
-</div>
-      <!-- Card 2 (Dark) -->
-      <!-- <div class="bg-brand-dark p-8 md:p-10 flex flex-col justify-center h-80 md:h-full group reveal">
-        <div class="w-10 h-10 bg-brand-red flex items-center justify-center mb-6 text-white shrink-0">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+      <div class="relative h-full group overflow-hidden reveal">
+        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1000&auto=format&fit=crop"
+          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+          alt="Building Renovations">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+        <div class="absolute bottom-8 left-8 right-8">
+          <h3 class="font-display text-white text-2xl font-bold mb-2 uppercase tracking-tight">
+            Building<br>Renovations
+          </h3>
+          <p class="text-brand-gray text-sm leading-relaxed">
+            Transforming existing spaces with modern designs, improved functionality, and high-quality finishes tailored to
+            your needs.
+          </p>
         </div>
-        <h3 class="text-white text-xl font-bold mb-4 uppercase tracking-wide">BOQ & Estimations</h3>
-        <ul class="text-gray-400 space-y-2 mb-6 text-sm flex-grow">
-          <li class="flex items-center"><span class="w-1.5 h-1.5 bg-brand-red rounded-full mr-2"></span> Cost Analysis</li>
-          <li class="flex items-center"><span class="w-1.5 h-1.5 bg-brand-red rounded-full mr-2"></span> Material Estimates</li>
-          <li class="flex items-center"><span class="w-1.5 h-1.5 bg-brand-red rounded-full mr-2"></span> Budget Management</li>
-        </ul>
-        <a href="#" class="text-brand-red font-bold text-xs tracking-wider uppercase hover:text-white transition">Learn More &raquo;</a>
-      </div> -->
+      </div>
 
-      <!-- Card 3 (Red) -->
-       
-      <!-- <div class="bg-brand-red p-8 md:p-10 flex flex-col justify-center h-80 md:h-full text-white reveal">
-        <div class="w-10 h-10 bg-white/20 flex items-center justify-center mb-6 text-white shrink-0 backdrop-blur-sm">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+      <div class="relative h-full group overflow-hidden reveal">
+        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1000&auto=format&fit=crop"
+          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+          alt="Cost Evaluation & Estimation">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+        <div class="absolute bottom-8 left-8 right-8">
+          <h3 class="font-display text-white text-2xl font-bold mb-2 uppercase tracking-tight">
+            Cost Evaluation &<br>Estimation
+          </h3>
+          <p class="text-brand-gray text-sm leading-relaxed">
+            Accurate project cost analysis and detailed estimates to help you plan your construction with transparency and
+            confidence.
+          </p>
         </div>
-        <h3 class="text-xl font-bold mb-4 uppercase tracking-wide">Engineering<br>Services</h3>
-        <p class="text-white/90 text-sm mb-6 flex-grow leading-relaxed">
-          Specialized technical support for complex structural challenges and infrastructure development.
-        </p>
-        <a href="#" class="w-10 h-10 border border-white/30 rounded-full flex items-center justify-center hover:bg-white hover:text-brand-red transition">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-        </a>
-      </div>  -->
-
-      <!-- Card 4 (Image) -->
-      
+      </div>
+      <!-- Card 5 (Dark) -->
+      <div class="relative h-full group overflow-hidden reveal">
+        <img src="https://images.unsplash.com/photo-1581091870627-3f7a3d5b6c1a?q=80&w=1000&auto=format&fit=crop"
+          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+          alt="Engineering Services">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+        <div class="absolute bottom-8 left-8 right-8">
+          <h3 class="font-display text-white text-2xl font-bold mb-2 uppercase tracking-tight">
+            Engineering<br>Services
+          </h3>
+          <p class="text-brand-gray text-sm leading-relaxed">
+            Professional structural, civil, and project engineering solutions ensuring safety, precision, and compliance in
+            every build.
+          </p>
+        </div>
+      </div>
 
     </div>
   </section>
